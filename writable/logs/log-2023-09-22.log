@@ -1,0 +1,98 @@
+CRITICAL - 2023-09-22 00:22:24 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, string given, called in C:\laragon\www\crudProduct\app\Controllers\ProductController.php on line 58
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\ProductController.php(58): CodeIgniter\HTTP\RedirectResponse->to('categoryView', '<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+</head>
+<body>
+    <h1>Categories</h1>
+    <table>
+        <tr>
+                        <li><a href="productView/1">Soft Drinks</a></li>
+            </tr>
+                    <li><a href="productView/2">Bread</a></li>
+            </tr>
+                    <li><a href="productView/8">1</a></li>
+            </tr>
+                    <li><a href="productView/9">1</a></li>
+            </tr>
+            </table>
+        <button><a href="insertCategory/">Insert Category</a></button>
+</body>
+</html>')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\crudProduct\\public\\index.php')
+CRITICAL - 2023-09-22 00:22:55 --> CodeIgniter\HTTP\RedirectResponse::to(): Argument #2 ($code) must be of type ?int, string given, called in C:\laragon\www\crudProduct\app\Controllers\ProductController.php on line 58
+in SYSTEMPATH\HTTP\RedirectResponse.php on line 32.
+ 1 APPPATH\Controllers\ProductController.php(58): CodeIgniter\HTTP\RedirectResponse->to('categoryView', '<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+</head>
+<body>
+    <h1>Categories</h1>
+    <table>
+        <tr>
+                        <li><a href="productView/1">Soft Drinks</a></li>
+            </tr>
+                    <li><a href="productView/2">Bread</a></li>
+            </tr>
+                    <li><a href="productView/8">1</a></li>
+            </tr>
+                    <li><a href="productView/9">1</a></li>
+            </tr>
+            </table>
+        <button><a href="insertCategory/">Insert Category</a></button>
+</body>
+</html>')
+ 2 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->insertProduct()
+ 3 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 4 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\crudProduct\\public\\index.php')
+CRITICAL - 2023-09-22 02:09:45 --> Undefined variable $prod
+in APPPATH\Views\insertProduct.php on line 10.
+ 1 APPPATH\Views\insertProduct.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'C:\\laragon\\www\\crudProduct\\app\\Views\\insertProduct.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\crudProduct\\app\\Views\\insertProduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('insertProduct', [], true)
+ 5 APPPATH\Controllers\ProductController.php(36): view('insertProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->showInsertProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\crudProduct\\public\\index.php')
+CRITICAL - 2023-09-22 02:10:50 --> Undefined variable $prod
+in APPPATH\Views\insertProduct.php on line 10.
+ 1 APPPATH\Views\insertProduct.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $prod', 'C:\\laragon\\www\\crudProduct\\app\\Views\\insertProduct.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\laragon\\www\\crudProduct\\app\\Views\\insertProduct.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1188): CodeIgniter\View\View->render('insertProduct', [], true)
+ 5 APPPATH\Controllers\ProductController.php(36): view('insertProduct', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->showInsertProduct()
+ 7 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 8 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\crudProduct\\public\\index.php')
+CRITICAL - 2023-09-22 04:08:40 --> Too few arguments to function App\Controllers\ProductController::insertProduct(), 0 passed in C:\laragon\www\crudProduct\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\ProductController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\crudProduct\\public\\index.php')
+CRITICAL - 2023-09-22 04:09:50 --> Too few arguments to function App\Controllers\ProductController::insertProduct(), 0 passed in C:\laragon\www\crudProduct\system\CodeIgniter.php on line 919 and exactly 1 expected
+in APPPATH\Controllers\ProductController.php on line 48.
+ 1 SYSTEMPATH\CodeIgniter.php(919): App\Controllers\ProductController->insertProduct()
+ 2 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ProductController))
+ 3 SYSTEMPATH\CodeIgniter.php(353): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Commands\Server\rewrite.php(47): require_once('C:\\laragon\\www\\crudProduct\\public\\index.php')
